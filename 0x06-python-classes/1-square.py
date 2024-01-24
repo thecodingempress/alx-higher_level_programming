@@ -3,6 +3,7 @@
 This is a class Square with a private instance attribute and no checks
 """
 
+
 class Square:
 
     """
