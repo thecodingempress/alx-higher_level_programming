@@ -2,7 +2,9 @@
 """
 This is a class Square with a private instance attribute and no checks
 """
+
 class Square:
+
     """
     This is an instance intitialization with a private instance attribute
 
