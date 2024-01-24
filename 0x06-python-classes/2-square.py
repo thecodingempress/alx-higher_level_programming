@@ -17,8 +17,8 @@ class Square:
 
     def __init__(self, size=0):
         """
-        This instance initializes an on object with the square size a 
-        private instance attribute. It check if the size is 
+        This instance initializes an on object with the square size a
+        private instance attribute. It check if the size is
         of the correct type and value
         """
         self.__size = size

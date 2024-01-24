@@ -14,10 +14,12 @@ class Square:
         type and value
     """
 
+
     def __init__(self, size=0):
         """
-        This instance initializes an on object with the square size a private instance
-        attribute. It check if teh size os of teh correct type and value
+        This instance initializes an on object with the square 
+        size a private instance attribute. It check if the
+        size os of teh correct type and value
         """
         self.__size = size
 
