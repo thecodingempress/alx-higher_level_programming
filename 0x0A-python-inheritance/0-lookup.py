@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+function returns a list of attributes
+"""
+
 
 def lookup(obj):
     """the function returns a list of items in an object
@@ -10,6 +14,6 @@ def lookup(obj):
         items (list): a list containing the attributes
     """
 
-    items = [] 
-    items =  dir(obj)
+    items = []
+    items = dir(obj)
     return items
