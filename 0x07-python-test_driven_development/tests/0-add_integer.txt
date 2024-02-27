@@ -1,0 +1,30 @@
+"""
+the is a doctest for function add_integer()
+
+>>> add_integer(10, 20)
+30
+
+>>> add_integer('one', 2)
+Traceback (most recent call last):
+	...
+TypeError: a must be an integer
+
+>>> add_integer(1.54363, 67)
+68
+
+>>> add_integer(100.3, -2)
+98
+
+>>> add_integer(9, "School")
+Traceback (most recent call last):
+	...
+TypeError: b must be an integer
+
+>>> add_integer(None)
+Traceback (most recent call last):
+	...
+TypeError: a must be an integer
+
+>>> add_integer(5.9, 9.9)
+14
+"""
